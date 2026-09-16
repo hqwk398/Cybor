@@ -1,2 +1,2 @@
 # Cybor
-Cybor ver Standalone + Installer Releases
+Cybor 1.0 fr/nl Standalone + Installer Releases
