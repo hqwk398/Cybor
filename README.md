@@ -1,2 +1,2 @@
 # Cybor
-Cybor ver deployement
+Cybor ver Standalone + Installer Releases
