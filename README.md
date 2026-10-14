@@ -13,6 +13,12 @@ Outil hors ligne d'aide à la prise d'audition Salduz 1 pour les victimes d'escr
   - Une fenêtre propose un réquisitoire par compte belge concerné. On peut y vérifier ou corriger la banque, l'IBAN et le montant avant de télécharger le document en .docx.
   - Seules les opérations de moins de 48 h comptent dans le montant, et la période d'historique est calculée automatiquement.
   - Un rappel précise que si la procédure Mule Stop a fonctionné et que l'argent est revenu sur le compte de la victime, le réquisitoire n'est pas utile.
+- **Mule Stop Police.**
+ - Un bouton « Mule Stop » apparaît dans le rapport quand un virement part vers un compte d’une banque partenaire (liste Febelfin).
+ - Il génère le formulaire bilingue prérempli (.docx) par banque : police, victime, PV, IBAN, montant, type de fraude.
+ - L’objet du mail s’adapte : « MULE STOP POLICE » ou « CAMERA REQUEST POLICE » si la victime a déjà signalé la fraude à sa banque.
+ - « Télécharger et ouvrir Outlook » télécharge le formulaire et ouvre un mail Outlook prérempli (destinataire, objet, texte). Le formulaire doit être joint manuellement.
+ - Vos coordonnées sont mémorisées pour les prochaines fois.
 - **Nouveau logo.**
 
 ### Améliorations
