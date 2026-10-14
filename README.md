@@ -4,6 +4,25 @@ Outil hors ligne d'aide à la prise d'audition Salduz 1 pour les victimes d'escr
 
 ---
 
+## V1.2a
+
+### Nouveautés
+- **Plusieurs modes de paiement dans un même dossier.** Une nouvelle page permet de cocher virement, paiement en ligne, espèces et/ou crypto. Chaque mode a ensuite sa page de détails, et le recall (virement) et la contestation (paiement en ligne) se traitent séparément.
+- **Réquisitoire bancaire prérempli.**
+  - Le bouton « Réquisitoire » de la page de rapport se débloque quand un virement de moins de 48 h part vers un compte belge, pour au moins 2 500 €.
+  - Une fenêtre propose un réquisitoire par compte belge concerné. On peut y vérifier ou corriger la banque, l'IBAN et le montant avant de télécharger le document en .docx.
+  - Seules les opérations de moins de 48 h comptent dans le montant, et la période d'historique est calculée automatiquement.
+  - Un rappel précise que si la procédure Mule Stop a fonctionné et que l'argent est revenu sur le compte de la victime, le réquisitoire n'est pas utile.
+- **Nouveau logo.**
+
+### Améliorations
+- Le bouton **Recommencer** demande maintenant une confirmation, partout dans l'application.
+- Les textes d'audition sont harmonisés en **Q : [question du policier] / R : [réponse de la victime à la première personne]**.
+- La relation des faits, l'audition et le PV tiennent compte des modes de paiement combinés, avec le montant total et un résultat par mode.
+- Le menu de destination des transactions propose aussi le marchand, le lieu de remise ou le wallet selon les modes cochés.
+
+---
+
 ## V1.2
 
 ### Types de faits alignés sur CyberAid
@@ -29,7 +48,6 @@ Chaque infraction a ses champs de saisie adaptés aux faits et ses mesures immé
 ### Fonctionnement
 - « Nouvelle intervention » et « Recommencer » ramènent à la page d'accueil et remettent tout à zéro.
 ### Design
-- Nouvelle icône pour le raccourci et interface de Cybor.
 - Refonte visuelle (gradient, etc).
 
 ### Corrections
