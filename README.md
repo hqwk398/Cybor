@@ -3,6 +3,25 @@
 Outil hors ligne d'aide à la prise d'audition Salduz 1 pour les victimes d'escroquerie numérique et de cybercriminalité - ZP Boraine, Service Enquête et Recherche.
 
 ---
+## Cybor v2.0
+
+### ✨ Nouveautés
+
+- **Procès-verbal (Word)** : une nouvelle tuile génère le corps du PV prérempli (information, personnes concernées, audition, relation des faits, préjudice, constatations, EEI victime et suspect, mesures prises, avis du magistrat). Les zones à compléter sont indiquées entre crochets ; le document reste à relire et à éditer. Vos coordonnées de rédacteur sont mémorisées.
+- **Adresse de la victime** : elle s'encode avec l'identité et alimente directement le PV (lieu des faits par défaut).
+- **Nouvelle interface « tablette »** : écrans en tuiles et en listes, parcours dans une colonne de gauche, polices et boutons harmonisés pour une meilleure lisibilité.
+- **Aperçu en direct** : un panneau à droite affiche le texte au fil de l'encodage et des indicateurs ✓ / ✗ : banque partenaire Mule Stop, réquisitoire bancaire nécessaire, magistrat à aviser.
+- **Rapport PDF** : l'écran final propose des tuiles (Rapport PDF, Procès-verbal, Copier l'audition, Copier la relation des faits, Réquisitoire, Mule Stop). Le PDF mis en page fait office de fiche EEI.
+- **Transactions plus lisibles** : chaque transaction est une carte numérotée sur une ligne, avec sa destination.
+- **Avertissement à la fermeture** : un message rappelle que toutes les données encodées seront effacées.
+
+### 🔧 Améliorations
+
+- **Règle réquisitoire et magistrat** : proposés quand au moins **2 500 €** ont été reçus en **moins de 48 h** sur **un même compte belge** (les virements vers ce compte s'additionnent). Les paiements par carte, espèces ou crypto ne comptent pas.
+- Le numéro de PV (exemple `MO.20.L4.0001854/2026`) se saisit au moment de générer le PV ou le formulaire Mule Stop.
+- L'IBAN de la victime est demandé pour les virements, paiements et retraits en espèces (pas pour la crypto).
+
+---
 
 ## V1.2a
 
